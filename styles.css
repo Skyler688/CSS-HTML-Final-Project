@@ -13,10 +13,10 @@ body {
 /* Header */
 header {
   position: fixed;
-  width: 100%;
   z-index: 1;
+  width: 100%;
   background-color: #3f3f3f;
-  padding: 8px;
+  padding-block: 8px;
   text-align: center;
   top: 0;
   left: 0;
@@ -99,7 +99,7 @@ footer {
   position: relative;
   width: 100%;
   background-color: #3f3f3f;
-  padding: 10px;
+  padding-block: 10px;
   font-size: 10px;
   color: white;
   bottom: 0px;
@@ -132,7 +132,7 @@ nav img:hover {
 }
 @media screen and (min-width: 450px) {
   header {
-    padding: 10px;
+    padding-block: 10px;
   }
   header h2 {
     font-size: 20px;
@@ -156,7 +156,7 @@ nav img:hover {
   }
   footer {
     font-size: 12px;
-    padding: 12px;
+    padding-block: 12px;
   }
 }
 @media screen and (min-width: 550px) {
@@ -190,7 +190,7 @@ nav img:hover {
 }
 @media screen and (min-width: 700px) {
   header {
-    padding: 12px;
+    padding-block: 12px;
   }
   header h2 {
     font-size: 24px;
@@ -214,7 +214,7 @@ nav img:hover {
   }
   footer {
     font-size: 14px;
-    padding: 14px;
+    padding-block: 14px;
   }
 }
 @media screen and (min-width: 850px) {
@@ -283,3 +283,8 @@ nav img:hover {
     font-size: 30px;
   }
 }
+
+/* mabey change up the desine for the banner a bit in the larger screen sizes 
+to better fit the page. looks great for smaller screens like phone and ipad but gets 
+to overtaking in the larger desktop like displays.
+*/
