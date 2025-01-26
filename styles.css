@@ -1,3 +1,285 @@
+* {
+  font-family: Georgia, serif;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* Background */
 body {
-  background-color: bisque;
+  background-color: black;
+}
+
+/* Header */
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  background-color: #3f3f3f;
+  padding: 8px;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+header h2 {
+  color: white;
+  font-size: 15px;
+}
+
+/* Welcome banner */
+.banner {
+  position: relative;
+  margin-top: 34px;
+}
+.banner img {
+  background-color: #f6fe00;
+  padding: 1%;
+  width: 98%;
+  height: auto;
+}
+.banner .welcome-1 {
+  position: absolute;
+  top: 25%;
+  left: 8%;
+  color: #f6fe00;
+  font-size: 10px;
+  text-shadow: -3px 1px black;
+}
+.banner .welcome-2 {
+  position: absolute;
+  bottom: 21%;
+  right: 8%;
+  color: #f6fe00;
+  font-size: 18px;
+  text-shadow: -3px 3px black;
+}
+
+/* Click image instruction */
+.instruct {
+  color: white;
+  text-align: center;
+  font-family: "Times New Roman", sans-serif;
+  font-style: italic;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+}
+/* Navigation */
+nav {
+  font-family: "Courier New", monospace;
+  color: white;
+  text-align: center;
+}
+nav h3 {
+  font-size: 17px;
+  margin-bottom: 3%;
+}
+
+nav img {
+  max-width: 98%;
+  width: 430px;
+  aspect-ratio: 1 / 0.65;
+  background-color: #f6fe00;
+  padding: 1%;
+  border-radius: 50%;
+}
+nav li {
+  margin-inline: 15%;
+  text-align: center;
+  list-style-type: none;
+  display: inline-block;
+  margin-bottom: 10%;
+}
+nav div {
+  margin: 50px;
+}
+
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #3f3f3f;
+  padding: 10px;
+  font-size: 10px;
+  color: white;
+  bottom: 0px;
+  text-align: center;
+}
+
+/* Pseudo Efects */
+nav img:hover {
+  position: relative;
+  bottom: 3px;
+  left: 1px;
+}
+
+/* Responsive Efects */
+@media screen and (min-width: 350px) {
+  .banner .welcome-1 {
+    font-size: 13px;
+    text-shadow: -4px 1.5px black;
+  }
+  .banner .welcome-2 {
+    font-size: 23px;
+    text-shadow: -4px 4px black;
+  }
+  .instruct {
+    font-size: 15px;
+  }
+  nav h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 450px) {
+  header {
+    padding: 10px;
+  }
+  header h2 {
+    font-size: 20px;
+  }
+  .banner {
+    margin-top: 43px;
+  }
+  .banner .welcome-1 {
+    font-size: 16px;
+    text-shadow: -5px 2px black;
+  }
+  .banner .welcome-2 {
+    font-size: 29px;
+    text-shadow: -5px 5px black;
+  }
+  .instruct {
+    font-size: 18px;
+  }
+  nav h3 {
+    font-size: 28px;
+  }
+  footer {
+    font-size: 12px;
+    padding: 12px;
+  }
+}
+@media screen and (min-width: 550px) {
+  .banner img {
+    padding: 0.5%;
+    width: 99%;
+  }
+  .banner .welcome-1 {
+    font-size: 19px;
+    text-shadow: -6px 2.5px black;
+  }
+  .banner .welcome-2 {
+    font-size: 34px;
+    text-shadow: -6px 6px black;
+  }
+  .instruct {
+    font-size: 20px;
+    margin-bottom: 55px;
+  }
+  nav {
+    column-count: 2;
+    margin-inline: 5%;
+  }
+  nav h3 {
+    font-size: 16px;
+  }
+  nav li {
+    margin-inline: 8%;
+    margin-bottom: 15%;
+  }
+}
+@media screen and (min-width: 700px) {
+  header {
+    padding: 12px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  .banner {
+    margin-top: 52px;
+  }
+  .banner .welcome-1 {
+    font-size: 24px;
+    text-shadow: -7px 3px black;
+  }
+  .banner .welcome-2 {
+    font-size: 43px;
+    text-shadow: -7px 7px black;
+  }
+  .instruct {
+    font-size: 22px;
+  }
+  nav h3 {
+    font-size: 20px;
+  }
+  footer {
+    font-size: 14px;
+    padding: 14px;
+  }
+}
+@media screen and (min-width: 850px) {
+  .banner .welcome-1 {
+    font-size: 29px;
+    text-shadow: -8px 3.5px black;
+  }
+  .banner .welcome-2 {
+    font-size: 52px;
+    text-shadow: -8px 8px black;
+  }
+  .instruct {
+    font-size: 25px;
+    margin-bottom: 75px;
+  }
+  nav h3 {
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 1050px) {
+  .banner .welcome-1 {
+    font-size: 35px;
+    text-shadow: -9px 4px black;
+  }
+  .banner .welcome-2 {
+    font-size: 63px;
+    text-shadow: -9px 9px black;
+  }
+  .instruct {
+    font-size: 28px;
+    margin-bottom: 90px;
+  }
+  nav h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1300px) {
+  .banner .welcome-1 {
+    font-size: 45px;
+    text-shadow: -10px 4.5px black;
+  }
+  .banner .welcome-2 {
+    font-size: 81px;
+    text-shadow: -10px 10px black;
+  }
+  .instruct {
+    margin-bottom: 105px;
+  }
+  nav h3 {
+    font-size: 38px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  .banner .welcome-1 {
+    font-size: 53px;
+    text-shadow: -11px 5px black;
+  }
+  .banner .welcome-2 {
+    font-size: 95px;
+    text-shadow: -11px 11px black;
+  }
+  nav {
+    column-count: 3;
+  }
+  nav h3 {
+    font-size: 30px;
+  }
 }
