@@ -1,7 +1,108 @@
 * {
+  font-family: Georgia, serif;
+  text-align: center;
   color: white;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 body {
   background-color: black;
+}
+
+/* Header/Home link */
+header {
+  position: fixed;
+  display: inline;
+  z-index: 1;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: #3f3f3f;
+  padding-block: 8px;
+}
+header h2 {
+  font-size: 15px;
+  text-align: center;
+}
+nav {
+  position: fixed;
+  right: 8px;
+  top: 8px;
+  z-index: 2;
+  font-size: 12px;
+}
+
+/* .Description */
+.dscrpt {
+  margin-inline: 10px;
+}
+.dscrpt img {
+  margin-top: 44px;
+  width: 400px;
+  outline: 3px solid #f6fe00;
+  border-radius: 10px;
+}
+.dscrpt h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.dscrpt p {
+  font-size: 15px;
+  padding-block: 6px;
+  padding-inline: 10px;
+  text-align: left;
+  outline: 1px solid #f6fe00;
+  border-radius: 10px;
+}
+.dscrpt span {
+  font-weight: bold;
+}
+
+/* Inhabitants */
+.inhab h3 {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.inhab p {
+  font-size: 15px;
+  padding-block: 6px;
+  padding-inline: 10px;
+  text-align: left;
+  margin-bottom: 10px;
+}
+.inhab .outline {
+  outline: 1px solid #f6fe00;
+  margin-inline: 10px;
+  border-radius: 10px;
+}
+.inhab .pics {
+  column-count: 2;
+  grid-gap: 3px;
+  margin-inline: 10px;
+  padding-bottom: 8.5px;
+}
+.inhab .pics img {
+  width: 400px;
+  aspect-ratio: 1 / 0.6;
+  margin-block: 1.5px;
+  vertical-align: bottom;
+}
+
+.space {
+  margin-block: 160px;
+}
+
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #3f3f3f;
+  padding-block: 10px;
+  font-size: 10px;
+  color: white;
+  bottom: 0px;
+  text-align: center;
 }

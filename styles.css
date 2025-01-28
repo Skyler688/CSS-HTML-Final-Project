@@ -1,3 +1,6 @@
+/* Starting screen size (300px) */
+
+/* Global effects */
 * {
   font-family: Georgia, serif;
   max-width: 100%;
@@ -54,7 +57,7 @@ header h2 {
   text-shadow: -3px 3px black;
 }
 
-/* Click image instruction */
+/* Click a image instruction */
 .instruct {
   color: white;
   text-align: center;
@@ -64,6 +67,7 @@ header h2 {
   margin-top: 0px;
   margin-bottom: 35px;
 }
+
 /* Navigation */
 nav {
   font-family: "Courier New", monospace;
@@ -91,7 +95,7 @@ nav li {
   margin-bottom: 10%;
 }
 nav div {
-  margin: 50px;
+  margin-block: 30px;
 }
 
 /* footer */
@@ -284,7 +288,8 @@ nav img:hover {
   }
 }
 
-/* mabey change up the desine for the banner a bit in the larger screen sizes 
+/* 
+mabey change up the desine for the banner a bit in the larger screen sizes 
 to better fit the page. looks great for smaller screens like phone and ipad but gets 
 to overtaking in the larger desktop like displays.
 */
