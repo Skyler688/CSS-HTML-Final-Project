@@ -95,7 +95,7 @@ nav li {
   margin-bottom: 10%;
 }
 nav div {
-  margin-block: 30px;
+  margin-block: 40px;
 }
 
 /* footer */
@@ -289,7 +289,9 @@ nav img:hover {
 }
 
 /* 
-mabey change up the desine for the banner a bit in the larger screen sizes 
+Mabey change up the desine for the banner a bit in the larger screen sizes 
 to better fit the page. looks great for smaller screens like phone and ipad but gets 
 to overtaking in the larger desktop like displays.
+
+Also do a patern of 2 1 2 on the larger page layout.
 */
