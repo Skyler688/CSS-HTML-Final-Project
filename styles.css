@@ -91,22 +91,19 @@ nav li {
   margin-inline: 15%;
   text-align: center;
   list-style-type: none;
-  display: inline-block;
   margin-bottom: 10%;
 }
 nav div {
-  margin-block: 40px;
+  margin-block: 15%;
 }
 
 /* footer */
 footer {
-  position: relative;
   width: 100%;
   background-color: #3f3f3f;
   padding-block: 10px;
   font-size: 10px;
   color: white;
-  bottom: 0px;
   text-align: center;
 }
 
@@ -180,16 +177,23 @@ nav img:hover {
     font-size: 20px;
     margin-bottom: 55px;
   }
-  nav {
-    column-count: 2;
-    margin-inline: 5%;
+  nav .row-2 {
+    float: left;
+    width: 34%;
+  }
+  nav .row-1 {
+    width: 34%;
+    margin-inline: 33%;
   }
   nav h3 {
     font-size: 16px;
   }
   nav li {
     margin-inline: 8%;
-    margin-bottom: 15%;
+    margin-bottom: 0;
+  }
+  nav div {
+    margin-block: 37%;
   }
 }
 @media screen and (min-width: 700px) {
@@ -272,26 +276,30 @@ nav img:hover {
   }
 }
 @media screen and (min-width: 1500px) {
+  .banner {
+    position: static;
+    border: 6px solid #f6fe00;
+  }
   .banner .welcome-1 {
-    font-size: 53px;
-    text-shadow: -11px 5px black;
+    font-size: 35px;
+    left: 45%;
+    top: 130px;
+    text-align: right;
   }
   .banner .welcome-2 {
-    font-size: 95px;
-    text-shadow: -11px 11px black;
+    font-size: 60px;
+    right: 2%;
+    top: 320px;
   }
-  nav {
-    column-count: 3;
+  .banner img {
+    width: 40%;
+    padding: 0.2%;
+    margin-block: 20px;
+    margin-left: 20px;
+    border-radius: 20px;
   }
-  nav h3 {
-    font-size: 30px;
+  .instruct {
+    font-size: 25px;
+    margin-top: 10px;
   }
 }
-
-/* 
-Mabey change up the desine for the banner a bit in the larger screen sizes 
-to better fit the page. looks great for smaller screens like phone and ipad but gets 
-to overtaking in the larger desktop like displays.
-
-Also do a patern of 2 1 2 on the larger page layout.
-*/
